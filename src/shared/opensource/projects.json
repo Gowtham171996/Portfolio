@@ -1,1 +1,22 @@
-{"data":[{"id":"R_kgDOLFHNZQ","name":"DSA_Patterns","createdAt":"2024-01-15T13:48:32Z","url":"https://github.com/nikitha12/DSA_Patterns","description":"Different problem patterns and example questions and their all solutions including explanation ","isFork":false,"languages":[]},{"id":"R_kgDOODJAZw","name":"Portfolio","createdAt":"2025-03-04T18:11:42Z","url":"https://github.com/nikitha12/Portfolio","description":"My portfolio to demonstrate my skills and experience ","isFork":false,"languages":[]}]}
+{
+  "data": [
+    {
+      "id": "R_kgDOLFHNZQ",
+      "name": "GitHub",
+      "createdAt": "2020-01-15T13:48:32Z",
+      "url": "https://github.com/Gowtham171996",
+      "description": "Different kinds of problem and their solutions",
+      "isFork": false,
+      "languages": []
+    },
+    {
+      "id": "R_kgDOODJAZw",
+      "name": "Artificial Intelligence Portfolio",
+      "createdAt": "2024-11-04T18:11:42Z",
+      "url": "https://gowthamportfolio.streamlit.app/",
+      "description": "My portfolio to demonstrate my skills and experience ",
+      "isFork": false,
+      "languages": []
+    }
+  ]
+}

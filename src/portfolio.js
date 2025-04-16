@@ -2,7 +2,7 @@
 
 // Website related settings
 const settings = {
-  isSplash: false, // Change this to false if you don't want Splash screen.
+  isSplash: true, // Change this to false if you don't want Splash screen.
 };
 
 //SEO Related settings
@@ -22,7 +22,7 @@ const greeting = {
   title: "Gowtham BC",
   logo_name: "Gowtham BC",
   nickname: "Gowtham",
-  subTitle: `A passionate individual with 6.5 years of experience in Consulting, Artificial Intelligence and Software development experience.\n Proven expertise in designing, developing and deploying scalable, high performance applications.\n Specialization in building end to end cloud AI applications which creates an impact. With domain experties in  Web-data crawling, processing of eCommerce platforms, and Catalog Platforms. Strong problem-solving skills and a passion for continuous learning.`,
+  subTitle: `A passionate individual with 6.5+ years of experience in Consulting, Artificial Intelligence and Software development experience.\n Proven expertise in designing, developing and deploying scalable, high performance Artificial Intelligence applications.\n Specialization in building end to end cloud AI applications which creates an impact. With domain experties in LLM, Computer Vision and Machine Learning. Team Leader and Ofcourse a passion for continuous learning rounds me.`,
   resumeLink:
     "https://drive.google.com/file/d/1iP3M1RcW1g37HhWygH7KQwW_fITdPas8/view?usp=sharing",
   portfolio_repository: "https://gowthamportfolio.streamlit.app/",
@@ -59,7 +59,7 @@ const skills = {
       skills: [
         "⚡ Computer Vision Engineer: Designed, develop, and maintain scalable Aritificial Intelligence cloud-based applications.",
         "⚡ Machine Learning Development: Creating application backend in Datascience, Medical Imaging, Time series Dataset.",
-        "⚡ Data Storage and Optimization: Manage and optimize data storage with relational databases and caching strategies.",
+        "⚡ Research and Development: Journey of Idea, Requirement Gathering, Research, Proof of Concept, Development, Deployment, Testing, Documentation and mentoring juniors.",
       ],
       softwareSkills: [
         {
@@ -142,6 +142,7 @@ const skills = {
         "⚡ Full-Stack Application Development: Builds seamless applications, connecting Node.js/Express.js backends with Angular frontends and deploying in GCP.",
         "⚡ RESTful API Design: Proficient in designing and building RESTful APIs, adhering to best practices for resource management and data exchange.",
         "⚡ Security Implementation: Skilled in implementing security measures, including authentication and authorization.",
+        "⚡ Dashboard: Creation of Dashboards for various Machine learning Applications.",
       ],
       softwareSkills: [
         {
@@ -207,9 +208,9 @@ const skills = {
       title: "Cloud Infra-Architecture",
       fileName: "CloudInfraImg",
       skills: [
-        "⚡ GCP Application Deployment & Management: Deploy, manage, and monitor applications on GCP using GKE, Cloud Functions, Cloud Monitoring, and Cloud Logging.",
-        "⚡ VM Website and Database Management: Host and maintain websites on virtual machine instances, integrating databases as needed.",
-        "⚡ GCP Service Integration with Java: Integrate GCP services like Cloud Postgres, Cloud Storage, and Pub/Sub with Java applications using client libraries.",
+        "⚡ AWS & Azure Application Deployment & Management: Deploy, manage, and monitor applications on GCP using GKE, Cloud Functions, Cloud Monitoring, and Cloud Logging.",
+        "⚡ Website and Database Management: Host and maintain websites on AI applications, integrating databases as needed.",
+        "⚡ GCP Service Integration with python: Integrate GCP services like Cloud Postgres, Cloud Storage, and Pub/Sub with python applications using client libraries.",
       ],
       softwareSkills: [
         {
@@ -481,6 +482,10 @@ const experience = {
           duration: "July 2024 - Current",
           location: "Hof, Bayern, Germany",
           description: [
+            "Developed scalable and secure backend REST APIs using C# (.NET Core) microservices architecture for enterprise machine learning applications, improving system maintainability.",
+            "Integrated Test cases, optimizing queries and improving response times by 25%.",
+            "Implemented Terraform-based Azure infrastructure, reducing deployment time by 35%.",
+            "Mentored junior team members, knowledge sharing technical excellence in solution deployment, problem solving algorithms, software engineering best practices Benchmarking, technical documentations, code reviews.",
             "Delivered and maintained highly scalable software applications across diverse platforms.",
             "Shared expertise through mentoring and participating in critical technical discussions.",
             "Analyzed user requirements, Streamlined system functionality through third-party APIs and developed software solutions.",
@@ -497,8 +502,12 @@ const experience = {
           duration: "Oct 2021 - June 2024",
           location: "Hof, Bayern, Germany",
           description: [
-            `Designed and Developed a Scalable Crawling Platform: A cloud-based infrastructure capable of processing 5 million web pages daily.`,
-            "Implemented Stream-based Microservice Architecture: Each module was a Spring Boot-based application.",
+            "Collaborated with cross-functional teams to integrate computer vision & ML models into scalable, real-world applications for ecommerce automobile products for 2100+ image analysis categories.",
+            "Implemented Angular and TypeScript-based frontends, improving usability and performance.",
+            "Coordinate in API integration &Test between industrial applications and third-party IoT platforms.",
+            "Developed User friendly dashboard (MERN Mongodb, ExpressJS, Reactjs, NodeJS) stack to user access.",
+            "Created automated CI/CD pipelines using Azure DevOps, improving deployment efficiency by 40%.",
+            "Designed and Developed a Scalable Crawling Platform: A cloud-based infrastructure capable of processing 5 million web pages daily.",
             "Optimized Data Storage Architecture: Collaborated with a team to achieve a 10% reduction in storage costs.",
             "Conducted code reviews and mentored junior developers, improving code quality and team productivity.",
           ],
@@ -512,10 +521,11 @@ const experience = {
           duration: "Jan 2019 - Feb 2020",
           location: "Bengaluru, India",
           description: [
-            "Java and Node js Developer: Specialized in Crawling and Catalog platforms",
-            "Contributed to Feature Development: Developed a JAVA crawler handling over 100 stores",
-            "Migrated Legacy Crawler: Successfully migrated 20 stores to a generic configuration-based crawler, replacing customized scripts",
-            "Debugging and Minor Feature Development: Assisted with catalog platform, supporting around 2130 stores",
+            "C# and Node js Developer: Specialized in DB Crawling and enterprise solution platforms",
+            "Migrated Legacy pages: Successfully migrated 20 stores to a generic configuration-based crawler, replacing customized scripts",
+            "Developed a secure, scalable backend using .NET Core and PostgreSQL for a real-time international project monitoring system UI UX Designs and test automation as priority.",
+            "Integrated continuous monitoring with cloud services, ensuring seamless, data flow and advanced analysis for software development.",
+            "Built data pipelines for smart iot devices development, Customer recommendation system incorporating sentiment analysis and named entity recognition for enriched user interactions.",
           ],
           color: "#0879bf",
         },
@@ -527,8 +537,7 @@ const experience = {
           duration: "July 2017 - Dec 2018",
           location: "Bengaluru, India",
           description: [
-            "Puppeteer Crawler Development: Created Node JS Puppeteer crawler for onboarding 30 JS-enabled websites",
-            "Catalog Platform Maintenance: Handled minor feature requests from clients on the catalog platform",
+            "Sharepoint Developer: Handled minor feature requests from clients on the sharepoint platform",
             "Data Quality Measurement: Designed REST APIs to assess data quality and built a dashboard for analysis across system components.",
           ],
           color: "#0879bf",
@@ -547,9 +556,8 @@ const experience = {
           duration: "Mar 2021 - Sept 2022",
           location: "Hof, Germany",
           description: [
-            "Blockchain-Based KYC POC: Developed a proof of concept for a Know Your Customer (KYC) application on the blockchain",
-            "Explored Various Blockchain Platforms: Researched and analyzed Ethereum and Multichain for application development",
-            "Multichain P2P Token Exchange POC: Conducted research and created a proof of concept for a blockchain application facilitating P2P crypto token exchange on Multichain.",
+            "3D reconstruction of Objects: Explored various possibilites scenarios and state of the art of 3D reconstruction",
+            "Recieved the Best thesis award from the City Hof, Germany.",
           ],
           color: "#0879bf",
         },
@@ -561,9 +569,8 @@ const experience = {
           duration: "June 2020 - Feb 2021",
           location: "Düsseldorf, Germany",
           description: [
-            "Blockchain-Based KYC POC: Developed a proof of concept for a Know Your Customer (KYC) application on the blockchain",
-            "Explored Various Blockchain Platforms: Researched and analyzed Ethereum and Multichain for application development",
-            "Multichain P2P Token Exchange POC: Conducted research and created a proof of concept for a blockchain application facilitating P2P crypto token exchange on Multichain.",
+            "Built CV pipelines with TensorFlow for machine learning development, Customer recommendation incorporating sentiment analysis and named entity recognition for enriched user interactions.",
+            "Designed edge AI models for real-time applications on NVIDIA Jetson, reducing latency by 30%.",
           ],
           color: "#0879bf",
         },
@@ -648,18 +655,15 @@ const contactPageData = {
   },
   addressSection: {
     title: "Address",
-    subtitle: "Saratoga Ave, San Jose, CA, USA 95129",
-    locality: "San Jose",
-    country: "USA",
-    region: "California",
-    postalCode: "95129",
-    streetAddress: "Saratoga Avenue",
+    subtitle: "Thereseinstrasse 15, 95028 Hof",
+    region: "Bayern, Germany",
     avatar_image_path: "address_image.svg",
-    location_map_link: "https://maps.app.goo.gl/NvYZqa34Wye4tpS17",
+    location_map_link:
+      "https://www.google.com/maps/place/Hof/@50.3113335,11.8068381",
   },
   phoneSection: {
-    title: "+49 17667460202",
-    subtitle: "",
+    title: "Mobile:",
+    subtitle: "+49 17667460202",
   },
 };
 
