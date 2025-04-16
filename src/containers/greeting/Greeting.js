@@ -9,8 +9,8 @@ export default function Greeting(props) {
   const theme = props.theme;
   const myHomeSetUpStyles = {
     borderRadius: 50,
-    padding: 20
-  }
+    padding: 20,
+  };
   return (
     <Fade bottom duration={2000} distance="40px">
       <div className="greet-main" id="greeting">
@@ -55,7 +55,11 @@ export default function Greeting(props) {
             </div>
           </div>
           <div className="greeting-image-div">
-          <img src={require(`../../assets/images/homepageimage.png`)} alt={"HomePageImage"} style={myHomeSetUpStyles}></img>
+            <img
+              src={require(`../../assets/images/homepageimage.webp`)}
+              alt={"HomePageImage"}
+              style={myHomeSetUpStyles}
+            ></img>
           </div>
         </div>
       </div>
