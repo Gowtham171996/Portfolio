@@ -8,8 +8,9 @@ export default function Footer(props) {
   return (
     <div className="footer-div">
       <Fade>
+        <hr />
         <p className="footer-text" style={{ color: props.theme.secondaryText }}>
-          Made by {greeting.title}
+          Made by {greeting.logo_name}
         </p>
         {/* <ToggleSwitch theme={props.theme} onToggle={props.onToggle}/> */}
       </Fade>

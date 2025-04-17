@@ -19,10 +19,10 @@ const seo = {
 
 //Home Page
 const greeting = {
-  title: "Gowtham BC",
+  title: "Gowtham Buvalli Chikkathammaiah",
   logo_name: "Gowtham BC",
   nickname: "Gowtham",
-  subTitle: `A passionate individual with 6.5+ years of experience in Consulting, Artificial Intelligence and Software development experience.\n Proven expertise in designing, developing and deploying scalable, high performance Artificial Intelligence applications.\n Specialization in building end to end cloud AI applications which creates an impact. With domain experties in LLM, Computer Vision and Machine Learning. Team Leader and Ofcourse a passion for continuous learning rounds me.`,
+  subTitle: `A passionate individual with 6.5+ years of experience (3.5yrs in Germany) in Consulting, Artificial Intelligence and Software development experience.\n Proven expertise in designing, developing and deploying scalable, high performance Artificial Intelligence applications.\n Specialization in building end to end cloud AI applications which creates an impact. With domain experties in LLM, Computer Vision and Machine Learning. Team Leader and Ofcourse a passion for continuous learning rounds me.`,
   resumeLink:
     "https://drive.google.com/file/d/1iP3M1RcW1g37HhWygH7KQwW_fITdPas8/view?usp=sharing",
   portfolio_repository: "https://gowthamportfolio.streamlit.app/",
@@ -358,109 +358,95 @@ const degrees = {
   ],
 };
 
-const certifications = {
-  certifications: [],
+const languagecertifications = {
+  languagecertifications: [
+    {
+      title: "German Language Proficeincy ",
+      subtitle: "Telc: B2 German language",
+      logo_path: "telc-logo.jfif",
+      certificate_link: "#",
+      alt_name: "Telc: B2 German language",
+      color_code: "#000000",
+    },
+    {
+      title: "English Language Proficeincy",
+      subtitle: "IELTS: C1 English language",
+      logo_path: "ielts-logo.png",
+      certificate_link:
+        "https://drive.google.com/file/d/1GTI_wmVQlAyxhElm-JVxx-gXX2fZMVhf/view?usp=sharing",
+      alt_name: "IELTS: C1 English language",
+      color_code: "#FFFFFF",
+    },
+    {
+      title: "German Language Proficeincy ",
+      subtitle: "VHS: Berufbezogenes Sprachtraining Büro und Verwaltung",
+      logo_path: "vhs-logo.png",
+      certificate_link:
+        "https://www.linkedin.com/in/gowtham-buvalli-chikkathammaiah-788b62a9/details/certifications/1736900380860/single-media-viewer/",
+      alt_name: "VHS: Berufbezogenes Sprachtraining Büro und Verwaltung",
+      color_code: "#000000",
+    },
+  ],
 };
 
-// const certifications = {
-//     certifications: [{
-//             title: "Machine Learning",
-//             subtitle: "- Andrew Ng",
-//             logo_path: "stanford_logo.png",
-//             certificate_link: "https://www.coursera.org/account/accomplishments/verify/22MTSSC5WDTM",
-//             alt_name: "Stanford University",
-//             color_code: "#8C151599",
-//         },
-//         {
-//             title: "Deep Learning",
-//             subtitle: "- Andrew Ng",
-//             logo_path: "deeplearning_ai_logo.png",
-//             certificate_link: "https://www.coursera.org/account/accomplishments/specialization/H8CPSFXAJD2G",
-//             alt_name: "deeplearning.ai",
-//             color_code: "#00000099",
-//         },
-//         {
-//             title: "ML on GCP",
-//             subtitle: "- GCP Training",
-//             logo_path: "google_logo.png",
-//             certificate_link: "https://www.coursera.org/account/accomplishments/specialization/EB4VJARK8647",
-//             alt_name: "Google",
-//             color_code: "#0C9D5899",
-//         },
-//         {
-//             title: "Data Science",
-//             subtitle: "- Alex Aklson",
-//             logo_path: "ibm_logo.png",
-//             certificate_link: "https://www.coursera.org/account/accomplishments/specialization/PLEAPCSJBZT5",
-//             alt_name: "IBM",
-//             color_code: "#1F70C199",
-//         },
-//         {
-//             title: "Big Data",
-//             subtitle: "- Kim Akers",
-//             logo_path: "microsoft_logo.png",
-//             certificate_link: "https://drive.google.com/file/d/164zKCFOsI4vGqokc-Qj-e_D00kLDHIrG/view",
-//             alt_name: "Microsoft",
-//             color_code: "#D83B0199",
-//         },
-//         {
-//             title: "Advanced Data Science",
-//             subtitle: "- Romeo Kienzler",
-//             logo_path: "ibm_logo.png",
-//             certificate_link: "https://www.coursera.org/account/accomplishments/verify/BH2T9BRU87BH",
-//             alt_name: "IBM",
-//             color_code: "#1F70C199",
-//         },
-//         {
-//             title: "Advanced ML on GCP",
-//             subtitle: "- GCP Training",
-//             logo_path: "google_logo.png",
-//             certificate_link: "https://www.coursera.org/account/accomplishments/verify/5JZZM7TNQ2AV",
-//             alt_name: "Google",
-//             color_code: "#0C9D5899",
-//         },
-//         {
-//             title: "DL on Tensorflow",
-//             subtitle: "- Laurence Moroney",
-//             logo_path: "deeplearning_ai_logo.png",
-//             certificate_link: "https://www.coursera.org/account/accomplishments/verify/6T4DCUGNK8J8",
-//             alt_name: "deeplearning.ai",
-//             color_code: "#00000099",
-//         },
-//         {
-//             title: "Fullstack Development",
-//             subtitle: "- Jogesh Muppala",
-//             logo_path: "coursera_logo.png",
-//             certificate_link: "https://www.coursera.org/account/accomplishments/certificate/NRANJA66Y2YA",
-//             alt_name: "Coursera",
-//             color_code: "#2A73CC",
-//         },
-//         {
-//             title: "Kuberenetes on GCP",
-//             subtitle: "- Qwiklabs",
-//             logo_path: "gcp_logo.png",
-//             certificate_link: "https://google.qwiklabs.com/public_profiles/e4d5a92b-faf6-4679-a70b-a9047c0cd750",
-//             alt_name: "GCP",
-//             color_code: "#4285F499",
-//         },
-//         {
-//             title: "Cryptography",
-//             subtitle: "- Saurabh Mukhopadhyay",
-//             logo_path: "nptel_logo.png",
-//             certificate_link: "https://drive.google.com/open?id=1z5ExD_QJVdU0slLkp8CBqSF3-C3g-ro_",
-//             alt_name: "NPTEL",
-//             color_code: "#FFBB0099",
-//         },
-//         {
-//             title: "Cloud Architecture",
-//             subtitle: "- Qwiklabs",
-//             logo_path: "gcp_logo.png",
-//             certificate_link: "https://google.qwiklabs.com/public_profiles/5fab4b2d-be6f-408c-8dcb-6d3b58ecb4a2",
-//             alt_name: "GCP",
-//             color_code: "#4285F499",
-//         },
-//     ],
-// };
+const certifications = {
+  certifications: [
+    {
+      title: "Machine Learning",
+      subtitle: "Microsoft Certified: Azure AI Fundamentals",
+      logo_path: "microsoft-certified-fundamentals-badge.svg",
+      certificate_link: "#",
+      alt_name: "Microsoft Certified: Azure AI Fundamentals",
+      color_code: "#8C151599",
+    },
+    {
+      title: "Scrum Product Owner",
+      subtitle: "Professional Scrum Product Owner I Certification",
+      logo_path: "scrum-logo.png",
+      certificate_link: "#",
+      alt_name: "Professional Scrum Product Owner I Certification",
+      color_code: "#00000099",
+    },
+    {
+      title: "Data Security",
+      subtitle:
+        "TÜV SUD: Information Security Management System based on ISO/IEC 27001:2022",
+      logo_path: "tuv-logo.svg",
+      certificate_link:
+        "https://www.linkedin.com/in/gowtham-buvalli-chikkathammaiah-788b62a9/details/certifications/1735599183786/single-media-viewer/",
+      alt_name:
+        "TÜV SUD: Information Security Management System based on ISO/IEC 27001:2022",
+      color_code: "#8C151599",
+    },
+    {
+      title: "Data handling",
+      subtitle: "TÜV SUD: EU General Data Protection Regulation (GDPR)",
+      logo_path: "tuv-logo.svg",
+      certificate_link:
+        "https://www.linkedin.com/in/gowtham-buvalli-chikkathammaiah-788b62a9/details/certifications/1735599183786/single-media-viewer/",
+      alt_name: "TÜV SUD: EU General Data Protection Regulation (GDPR)",
+      color_code: "#00000099",
+    },
+    {
+      title: "Software Programming",
+      subtitle: "Software Programming: Source Coding Best Practices",
+      logo_path: "cgi-logo.png",
+      certificate_link:
+        "https://drive.google.com/file/d/1033gDBlm55NuwRShGKEngWOfy2KK9Gyi/view?usp=sharing",
+      alt_name: "Software Programming: Source Coding Best Practices",
+      color_code: "#8C151599",
+    },
+    {
+      title: "Machine Learning",
+      subtitle: "Automation & Machine Learning",
+      logo_path: "cgi-logo.png",
+      certificate_link:
+        "https://drive.google.com/file/d/1033gDBlm55NuwRShGKEngWOfy2KK9Gyi/view?usp=sharing",
+      alt_name: "TÜV SUD: EU General Data Protection Regulation (GDPR)",
+      color_code: "#00000099",
+    },
+  ],
+};
 
 // Experience Page
 const experience = {
@@ -477,7 +463,8 @@ const experience = {
         {
           title: "TEAM LEAD SOFTWARE ENGINEER ",
           company: "Solventum OPC Private Limited",
-          company_url: "https://www.ibm.com/in-en",
+          company_url:
+            "https://sites.google.com/view/solventum-opc-private-limited/",
           logo_path: "solventum-logo.jpg",
           duration: "July 2024 - Current",
           location: "Hof, Bayern, Germany",
@@ -516,7 +503,7 @@ const experience = {
         {
           title: "SENIOR SOFTWARE ENGINEER",
           company: "MINDTREE",
-          company_url: "https://corp.rakuten.co.in/",
+          company_url: "https://www.ltimindtree.com/",
           logo_path: "mindtree-logo.jfif",
           duration: "Jan 2019 - Feb 2020",
           location: "Bengaluru, India",
@@ -532,7 +519,7 @@ const experience = {
         {
           title: "ASSOCIATE SOFTWARE ENGINEER",
           company: "CGI",
-          company_url: "https://corp.rakuten.co.in/",
+          company_url: "https://www.cgi.com/en",
           logo_path: "cgi-logo.png",
           duration: "July 2017 - Dec 2018",
           location: "Bengaluru, India",
@@ -642,8 +629,8 @@ const contactPageData = {
     title: "Contact Me",
     profile_image_path: "gowtham.png",
     description:
-      "I am available on LinkedIn. I will reply within 24 hours. Or Contact me over e-mail",
-    number: "+49 1766746 0202",
+      "I am available on LinkedIn. I will reply within 24 hours. Or Contact me over e-mail ",
+    email: "bcgowtham17@gmail.com",
   },
 
   blogSection: {
@@ -655,11 +642,11 @@ const contactPageData = {
   },
   addressSection: {
     title: "Address",
-    subtitle: "Thereseinstrasse 15, 95028 Hof",
-    region: "Bayern, Germany",
+    subtitle: "Wilhelmshavener str. 48, 10552 Berlin",
+    region: "Berlin, Germany",
     avatar_image_path: "address_image.svg",
     location_map_link:
-      "https://www.google.com/maps/place/Hof/@50.3113335,11.8068381",
+      "https://www.google.com/maps/place/Wilhelmshavener+Str.,+10551+Berlin/@52.531156,13.3373439,16.42z",
   },
   phoneSection: {
     title: "Mobile:",
@@ -675,6 +662,7 @@ export {
   skills,
   competitiveSites,
   degrees,
+  languagecertifications,
   certifications,
   experience,
   projectsHeader,

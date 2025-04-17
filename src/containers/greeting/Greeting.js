@@ -2,8 +2,10 @@ import React from "react";
 import "./Greeting.css";
 import SocialMedia from "../../components/socialMedia/SocialMedia";
 import Button from "../../components/button/Button";
-import { greeting } from "../../portfolio";
+import { greeting, contactPageData } from "../../portfolio";
 import { Fade } from "react-reveal";
+
+const addressSection = contactPageData.addressSection;
 
 export default function Greeting(props) {
   const theme = props.theme;
@@ -40,13 +42,35 @@ export default function Greeting(props) {
                   theme={theme}
                   className="portfolio-repo-btn"
                 /> */}
-                <Button
-                  text="📄 See my resume"
-                  newTab={true}
-                  href={greeting.resumeLink}
-                  theme={theme}
-                  className="portfolio-repo-btn"
-                />
+
+                <table>
+                  <tr>
+                    <td>
+                      <p
+                        className="contact-header-detail-text subTitle"
+                        style={{ color: theme.secondaryText }}
+                      >
+                        <h1
+                          className="address-heading-text"
+                          style={{ color: theme.text }}
+                        >
+                          {" "}
+                          {addressSection["title"]}
+                        </h1>
+                        {addressSection["subtitle"]}
+                      </p>
+                    </td>
+                    <td>
+                      <Button
+                        text="📄 See my resume"
+                        newTab={true}
+                        href={greeting.resumeLink}
+                        theme={theme}
+                        className="portfolio-repo-btn"
+                      />
+                    </td>
+                  </tr>
+                </table>
               </div>
               {/* <div className="button-greeting-div">
               <Button text="Contact me" href="#contact" />

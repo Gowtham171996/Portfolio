@@ -42,6 +42,7 @@ class Contact extends Component {
                   style={{ color: theme.secondaryText }}
                 >
                   {ContactData["description"]}
+                  {ContactData["email"]}
                 </p>
                 <SocialMedia theme={theme} />
                 <div className="resume-btn-div">
