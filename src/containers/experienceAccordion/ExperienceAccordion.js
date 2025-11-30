@@ -24,6 +24,7 @@ class ExperienceAccordion extends Component {
                       borderColor: `${theme.headerColor}`,
                       marginBottom: `3px`,
                       fontFamily: "Google Sans Regular",
+                      fontSize: "larger",
                       color: `${theme.text}`,
                       ":hover": {
                         color: `${theme.secondaryText}`,
@@ -37,9 +38,14 @@ class ExperienceAccordion extends Component {
                   },
                 }}
               >
-{section["experiences"].map((experience,index) => {
+                {section["experiences"].map((experience, index) => {
                   return (
-                    <ExperienceCard index={index} totalCards={section["experiences"].length} experience={experience} theme={theme} />
+                    <ExperienceCard
+                      index={index}
+                      totalCards={section["experiences"].length}
+                      experience={experience}
+                      theme={theme}
+                    />
                   );
                 })}
               </Panel>

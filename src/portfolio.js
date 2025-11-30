@@ -22,10 +22,10 @@ const greeting = {
   title: "Gowtham Buvalli Chikkathammaiah",
   logo_name: "Gowtham BC",
   nickname: "Gowtham",
-  subTitle: `A passionate individual with 6.5+ years of experience (3.5yrs in Germany) in Consulting, Artificial Intelligence and Software development experience.\n Proven expertise in designing, developing and deploying scalable, high performance Artificial Intelligence applications.\n Specialization in building end to end cloud AI applications which creates an impact. With domain experties in LLM, Computer Vision and Machine Learning. Team Leader and Ofcourse a passion for continuous learning rounds me.`,
+  subTitle: `A passionate individual with 7+ years of experience (4yrs in Germany) in Consulting, Artificial Intelligence and Software development experience.\n Proven expertise in designing, developing and deploying scalable, high performance Artificial Intelligence applications.\n Specialization in building end to end cloud AI applications which creates an impact. With domain experties in LLM, Computer Vision and Machine Learning. Team Leader and Ofcourse a passion for continuous learning rounds me.`,
   resumeLink:
-    "https://drive.google.com/file/d/1iP3M1RcW1g37HhWygH7KQwW_fITdPas8/view?usp=sharing",
-  portfolio_repository: "https://gowthamportfolio.streamlit.app/",
+    "https://drive.google.com/file/d/1enCpMh-ZrWm0_cjLSjZ1GEHgkbx0arz-/view?usp=sharing",
+  portfolio_repository: "https://portfolio.solventumrnd.com/", // "https://gowthamportfolio.streamlit.app/",
   githubProfile: "https://github.com/Gowtham171996",
 };
 
@@ -59,7 +59,7 @@ const skills = {
       skills: [
         "⚡ Computer Vision Engineer: Designed, develop, and maintain scalable Aritificial Intelligence cloud-based applications.",
         "⚡ Machine Learning Development: Creating application backend in Datascience, Medical Imaging, Time series Dataset.",
-        "⚡ Research and Development: Journey of Idea, Requirement Gathering, Research, Proof of Concept, Development, Deployment, Testing, Documentation and mentoring juniors.",
+        "⚡ Research and Development: Journey from Idea, Requirement Gathering, Research existing solutions, Proof of Concept, Development, Deployment, Testing, Documentation and mentoring juniors individually and also lead team through process.",
       ],
       softwareSkills: [
         {
@@ -198,6 +198,13 @@ const skills = {
         {
           skillName: "Dotnet",
           fontAwesomeClassname: "simple-icons:dotnet",
+          style: {
+            color: "#CB3837",
+          },
+        },
+        {
+          skillName: "Sharepoint",
+          imageSrc: "sharepoint-logo.png",
           style: {
             color: "#CB3837",
           },
@@ -397,7 +404,7 @@ const certifications = {
       logo_path: "microsoft-certified-fundamentals-badge.svg",
       certificate_link: "#",
       alt_name: "Microsoft Certified: Azure AI Fundamentals",
-      color_code: "#8C151599",
+      color_code: "#FFFFFF",
     },
     {
       title: "Scrum Product Owner",
@@ -405,7 +412,7 @@ const certifications = {
       logo_path: "scrum-logo.png",
       certificate_link: "#",
       alt_name: "Professional Scrum Product Owner I Certification",
-      color_code: "#00000099",
+      color_code: "#FFFFFF",
     },
     {
       title: "Data Security",
@@ -416,7 +423,7 @@ const certifications = {
         "https://www.linkedin.com/in/gowtham-buvalli-chikkathammaiah-788b62a9/details/certifications/1735599183786/single-media-viewer/",
       alt_name:
         "TÜV SUD: Information Security Management System based on ISO/IEC 27001:2022",
-      color_code: "#8C151599",
+      color_code: "#FFFFFF",
     },
     {
       title: "Data handling",
@@ -425,7 +432,7 @@ const certifications = {
       certificate_link:
         "https://www.linkedin.com/in/gowtham-buvalli-chikkathammaiah-788b62a9/details/certifications/1735599183786/single-media-viewer/",
       alt_name: "TÜV SUD: EU General Data Protection Regulation (GDPR)",
-      color_code: "#00000099",
+      color_code: "#FFFFFF",
     },
     {
       title: "Software Programming",
@@ -434,7 +441,7 @@ const certifications = {
       certificate_link:
         "https://drive.google.com/file/d/1033gDBlm55NuwRShGKEngWOfy2KK9Gyi/view?usp=sharing",
       alt_name: "Software Programming: Source Coding Best Practices",
-      color_code: "#8C151599",
+      color_code: "#FFFFFF",
     },
     {
       title: "Machine Learning",
@@ -443,7 +450,7 @@ const certifications = {
       certificate_link:
         "https://drive.google.com/file/d/1033gDBlm55NuwRShGKEngWOfy2KK9Gyi/view?usp=sharing",
       alt_name: "TÜV SUD: EU General Data Protection Regulation (GDPR)",
-      color_code: "#00000099",
+      color_code: "#FFFFFF",
     },
   ],
 };
@@ -453,7 +460,7 @@ const experience = {
   title: "Experience",
   subtitle: "Work, Internship and Freelancing",
   description:
-    "Diligent software engineer with 6+ years of experience in application development. Eager to build innovative and cutting-edge business solutions. I am keen on exploring and learning new technology and enhancing my skills to provide better efficiency in my work.",
+    "Diligent software engineer with 7+ years of experience in application development. Eager to build innovative and cutting-edge business solutions. I am keen on exploring and learning new technology and enhancing my skills to provide better efficiency in my work.",
   header_image_path: "experience.svg",
   sections: [
     {
@@ -461,27 +468,27 @@ const experience = {
       work: true,
       experiences: [
         {
-          title: "TEAM LEAD SOFTWARE ENGINEER ",
+          title: "SENIOR AI SOFTWARE ENGINEER ",
           company: "Solventum OPC Private Limited",
           company_url:
             "https://sites.google.com/view/solventum-opc-private-limited/",
           logo_path: "solventum-logo.jpg",
           duration: "July 2024 - Current",
-          location: "Hof, Bayern, Germany",
+          location: "Berlin, Germany",
           description: [
-            "Developed scalable and secure backend REST APIs using C# (.NET Core) microservices architecture for enterprise machine learning applications, improving system maintainability.",
+            "Developed scalable & secure backend microservices LLM architecture for industrial application cases for using pretrained Ollama, Langchain, Qdrant on dataset from various databases (text, data)",
+            "Agile methodology application design: Integrated vector graph databases for RAG conversational agentic AI with development including prompt engineering, training & Transfer learning, fine-tuning, evaluation, & anomaly detection with cloud-based platforms docker Kubernetes deployment",
+            "Created automated CI/CD containerization pipelines to Azure DevOps, Docker, Kubernets improving efficiency by 40%.",
             "Integrated Test cases, optimizing queries and improving response times by 25%.",
-            "Implemented Terraform-based Azure infrastructure, reducing deployment time by 35%.",
             "Mentored junior team members, knowledge sharing technical excellence in solution deployment, problem solving algorithms, software engineering best practices Benchmarking, technical documentations, code reviews.",
-            "Delivered and maintained highly scalable software applications across diverse platforms.",
             "Shared expertise through mentoring and participating in critical technical discussions.",
             "Analyzed user requirements, Streamlined system functionality through third-party APIs and developed software solutions.",
-            "Developed, tested, and maintained software applications using Node.js.",
+            "Developed, tested, and maintained software applications test cases using Node.js.",
           ],
           color: "#000000",
         },
         {
-          title: "SENIOR SOFTWARE ENGINEER ",
+          title: "MID SENIOR AI RESEARCHER",
           company: "IISYS",
           company_url:
             "https://www.iisys.de/forschung/forschungsgruppen/multimodale-kuenstliche-intelligenz/",
@@ -494,7 +501,6 @@ const experience = {
             "Coordinate in API integration &Test between industrial applications and third-party IoT platforms.",
             "Developed User friendly dashboard (MERN Mongodb, ExpressJS, Reactjs, NodeJS) stack to user access.",
             "Created automated CI/CD pipelines using Azure DevOps, improving deployment efficiency by 40%.",
-            "Designed and Developed a Scalable Crawling Platform: A cloud-based infrastructure capable of processing 5 million web pages daily.",
             "Optimized Data Storage Architecture: Collaborated with a team to achieve a 10% reduction in storage costs.",
             "Conducted code reviews and mentored junior developers, improving code quality and team productivity.",
           ],
@@ -526,6 +532,8 @@ const experience = {
           description: [
             "Sharepoint Developer: Handled minor feature requests from clients on the sharepoint platform",
             "Data Quality Measurement: Designed REST APIs to assess data quality and built a dashboard for analysis across system components.",
+            "Designed and Developed a Scalable Crawling Platform: A cloud-based infrastructure capable of processing 5 million internal sharepoint pages daily.",
+            "Chatbot: As early adopters for Microsft Azure, Created Recommendation systems Chatbot ",
           ],
           color: "#0879bf",
         },
@@ -574,8 +582,8 @@ const experience = {
           duration: "Jan 2022 - March 2024",
           location: "Bengaluru, India",
           description: [
-            "Developed a web application to help the organization distribute excess food to the needy",
-            "The web application was build with node js Backend and Angular Frontend and was deployed on firebase",
+            "Developed a AI application to help the organization perform Research Proof of concept in various fields: Medical Analysis: Diabetic retinopathy, Breast cancer detection,  Weather prediction, Early disease detection of mango leaves ",
+            "The web application was build with nodejs Backend and Express, MongoDB Frontend and was deployed on firebase",
           ],
           color: "#4285F4",
         },
@@ -633,13 +641,6 @@ const contactPageData = {
     email: "bcgowtham17@gmail.com",
   },
 
-  blogSection: {
-    title: "Blogs",
-    subtitle:
-      "I like to document some of my experiences in professional career journey as well as some technical knowledge sharing.",
-    link: "https://blogs.nikithanimbalkar.com/",
-    avatar_image_path: "blogs_image.svg",
-  },
   addressSection: {
     title: "Address",
     subtitle: "Wilhelmshavener str. 48, 10552 Berlin",
