@@ -13,7 +13,7 @@ const seo = {
   og: {
     title: "Gowtham B C Portfolio",
     type: "website",
-    url: "https://gowthamportfolio.streamlit.app/",
+    url: "https://portfolio.solventumrnd.com/",
   },
 };
 
@@ -643,7 +643,7 @@ const contactPageData = {
 
   addressSection: {
     title: "Address",
-    subtitle: "Wilhelmshavener str. 48, 10552 Berlin",
+    subtitle: "Wilhelmshavener str., 10552 Berlin",
     region: "Berlin, Germany",
     avatar_image_path: "address_image.svg",
     location_map_link:
